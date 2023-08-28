@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## To install the project on your local machine, 
+- First of all create a database in your local machine i.e MySQL Database with name "project_orchid" which you can change manually and add another database by changing DB_Database name which you have in your project
+- Goto the folder where you have cloned the project 
+- Open the terminal inside the folder and run the following command
+```bash
+./projectInitialize.sh
+```
+And the project will be installed in your system
+and to start the server
+php artisan serve
+
 ## About Chronic Kidney Disease Prediction Using Naive Bayes ALgorithm
 
 The Chronic Kidney Disease Prediction system is a web-based system that helps patient keep 

@@ -1,4 +1,4 @@
-composer update
+composer install
 cp .env.example .env
 php artisan migrate:fresh --seed
 php artisan key:generate
